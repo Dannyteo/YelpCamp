@@ -1,4 +1,4 @@
-FROM node:lts-alpine
+FROM node:20.14.0-alpine3.20
 
 # install simple http server for serving static content
 RUN npm install -g http-server
